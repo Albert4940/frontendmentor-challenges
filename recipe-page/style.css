@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1c98e;
+}
+
+main{
+    background-color: #FFFFFF;
+    padding: 50px;
+    width: 60%;
+    margin: 70px auto;
+    border-radius: 10px;
+}
