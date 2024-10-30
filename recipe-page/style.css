@@ -3,11 +3,19 @@ body{
     padding: 0;
     background-color: #f1c98e;
 }
-
+main, #jumbotron-image {
+    border-radius: 10px;
+}
 main{
     background-color: #FFFFFF;
     padding: 50px;
     width: 60%;
     margin: 70px auto;
-    border-radius: 10px;
+}
+
+#jumbotron-image{
+    height:450px;
+    background-image: url("omelette.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
