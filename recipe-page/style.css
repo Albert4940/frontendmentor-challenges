@@ -3,16 +3,13 @@ body{
     padding: 0;
     background-color: #f1c98e;
 }
-
-main, #jumbotron-image, #preparation-time{
+main, #jumbotron-image {
     border-radius: 10px;
 }
-
 main{
     background-color: #FFFFFF;
     width: 60%;
     margin: 70px auto;
-    padding: 50px;
 }
 
 #jumbotron-image{
@@ -21,9 +18,3 @@ main{
     background-repeat: no-repeat;
     background-size: cover;    
 }
-
-#preparation-time{
-    background-color:#F6E5E9;
-    padding: 10px 50px;
-}
-
