@@ -3,14 +3,16 @@ body{
     padding: 0;
     background-color: #f1c98e;
 }
-main, #jumbotron-image {
+
+main, #jumbotron-image, #preparation-time{
     border-radius: 10px;
 }
+
 main{
     background-color: #FFFFFF;
-    padding: 50px;
     width: 60%;
     margin: 70px auto;
+    padding: 50px;
 }
 
 #jumbotron-image{
@@ -18,4 +20,18 @@ main{
     background-image: url("omelette.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
+}
+
+#preparation-time{
+    background-color:#F6E5E9;
+    padding: 5px 30px;
+}
+
+#preparation-time ul{   
+    padding-left: 25px; 
+}
+
+#preparation-time li{
+    padding-left: 20px; 
+    padding-bottom: 5px;
 }
