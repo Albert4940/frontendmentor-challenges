@@ -8,6 +8,7 @@ main, #jumbotron-image {
 }
 main{
     background-color: #FFFFFF;
+    padding: 50px;
     width: 60%;
     margin: 70px auto;
 }
