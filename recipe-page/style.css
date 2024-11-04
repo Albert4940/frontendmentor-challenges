@@ -27,11 +27,31 @@ main{
     padding: 5px 30px;
 }
 
-#preparation-time ul{   
+#preparation-time ul, 
+#ingredients ul, 
+#recipe-instructions ol
+{   
     padding-left: 25px; 
 }
 
-#preparation-time li{
+#preparation-time li,
+#ingredients li, 
+#recipe-instructions li
+{
     padding-left: 20px; 
     padding-bottom: 5px;
 }
+
+/*#recipe-nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#recipe-nutrition table td {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+}
+
+#recipe-nutrition table tr> td {
+    padding-left: 8px;
+}*/
