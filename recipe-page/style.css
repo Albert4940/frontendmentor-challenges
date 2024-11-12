@@ -42,16 +42,18 @@ main{
     padding-bottom: 5px;
 }
 
-/*#recipe-nutrition table {
+#recipe-nutrition table {
     border-collapse: collapse;
     width: 100%;
 }
 
 #recipe-nutrition table td {
     border-bottom: 1px solid #dddddd;
-    padding: 8px;
+    padding: 8px 0px;
 }
 
-#recipe-nutrition table tr> td {
-    padding-left: 8px;
-}*/
+#recipe-nutrition table tr td:first-child {
+    padding-left: 35px;
+    width: 40%;
+}
+
