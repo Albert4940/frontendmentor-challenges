@@ -57,3 +57,32 @@ main{
     width: 40%;
 }
 
+@media screen and (max-width: 600px){
+    body{
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    main, #jumbotron-image{
+        border-radius: 0px;
+    }
+
+    main{
+        background-color: none; 
+        /* get explanation on chatgpt */
+        /* width: 100%; */
+        width: auto;
+        margin: 0px auto;
+        padding: 50px;
+    }
+
+    #jumbotron-image{
+        /* height:250px;
+        width: 100%;
+        background: none; */
+        /* background-image: url("omelette.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;  */  
+    }
+}
