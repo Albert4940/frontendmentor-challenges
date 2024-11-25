@@ -54,7 +54,7 @@ main{
 
 #recipe-nutrition table tr td:first-child {
     padding-left: 35px;
-    width: 40%;
+    width: 41.5%;
 }
 
 @media screen and (max-width: 600px){
@@ -69,20 +69,23 @@ main{
     }
 
     main{
-        background-color: none; 
-        /* get explanation on chatgpt */
-        /* width: 100%; */
-        width: auto;
+        background-color: none;         
+        width: 100%;
         margin: 0px auto;
-        padding: 50px;
+        padding: 0px;
+    }
+
+    main section{
+        margin: 0 20px;
+    }
+
+    #jumbotron{
+        width: 100% ;
+        margin: auto;
     }
 
     #jumbotron-image{
-        /* height:250px;
-        width: 100%;
-        background: none; */
-        /* background-image: url("omelette.jpg"); 
-        background-repeat: no-repeat;
-        background-size: cover;  */  
+        height:250px;
+        width: 100%; 
     }
 }
